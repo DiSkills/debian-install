@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/bin/env bash
 
 # Installing zsh
 echo "Installing zsh..."
 sudo apt install -y zsh
+chsh -s $(which zsh)
 echo "[+] Zsh has been installed successfully"
 
 # Installing oh-my-zsh
